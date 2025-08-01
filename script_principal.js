@@ -5,8 +5,8 @@ function initContenedor(){
     const anchoPantalla = window.innerWidth;
     const altoPantalla = window.innerHeight;
     minValue = Math.min(anchoPantalla,altoPantalla);
-    Contenedor.style.width=String(minValue*.7)+"px";
-    Contenedor.style.height=String(minValue*.9)+"px";
+    Contenedor.style.width=String(minValue*.79)+"px";
+    Contenedor.style.height=String(minValue*.96)+"px";
 }
 
 document.addEventListener('DOMContentLoaded', function() {
