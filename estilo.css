@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.pagina{
+    display: none;
+}
+.active {
+    display: block;
+}
+
+.contenedor{
+    position: absolute;
+    left: 50%;
+    top:3%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagina_0{
+    position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -90%);
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+}
+#btn-reproducir{
+    width: 100%;
+    height: 100%;
+    background-image: url('./sobre.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#btn-reproducir:hover{
+    cursor: pointer;
+}
+
+
+
+
+#pagina_1{
+    position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+}
+
+#div_invitcion{
+    position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 0 19px #98989a, 0 0 19px #98989a, 0 0 33px #98989a;
+}
+
+#invitacion{
+    position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+#ubicacion{
+    position: absolute;
+    right:3%;
+    bottom:1%;
+    float: left;
+    width: 39%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 10;
+}
+#ubicacion:hover{
+    cursor: pointer;
+}
