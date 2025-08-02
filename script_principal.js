@@ -5,8 +5,13 @@ function initContenedor(){
     const anchoPantalla = window.innerWidth;
     const altoPantalla = window.innerHeight;
     minValue = Math.min(anchoPantalla,altoPantalla);
-    Contenedor.style.width=String(minValue*.79)+"px";
-    Contenedor.style.height=String(minValue*.96)+"px";
+    if(minValue == altoPantalla){
+      Contenedor.style.width=String(minValue*.79)+"px";
+      Contenedor.style.height=String(minValue*.96)+"px";
+    }else{
+      Contenedor.style.width=String(minValue*.79)+"px";
+      Contenedor.style.height=String(minValue*1.1)+"px";
+    }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
