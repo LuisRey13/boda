@@ -10,7 +10,7 @@ function initContenedor(){
       Contenedor.style.height=String(minValue*.96)+"px";
     }else{
       Contenedor.style.width=String(minValue*.79)+"px";
-      Contenedor.style.height=String(minValue*1.3)+"px";
+      Contenedor.style.height=String(minValue*1.1)+"px";
     }
 }
 
